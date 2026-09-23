@@ -1,0 +1,14 @@
+ollama>=0.4.7
+python-dotenv>=1.0.1
+
+
+langchain
+langchain-community
+chromadb
+sentence-transformers
+
+fastapi
+uvicorn
+
+langchain-text-splitters
+pydantic
