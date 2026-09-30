@@ -1,30 +1,30 @@
-# CollabFarm Funding, Disbursement and Settlement Guide
+## CollabFarm Funding, Disbursement and Settlement Guide
 
 ## Overview
 
 CollabFarm tracks agricultural funding from investor commitment through fund release, farmer disbursement, farming progress and settlement.
 
-The platform ensures that investment activities are connected to verified farmers and documented farming activities.
+The platform ensures that funding is connected to verified farmers and documented farming activities.
 
 ## Investment Funding
 
-Investors fund approved farmer opportunities through the platform.
+Investors fund approved funding packages through the platform.
 
 The system records:
 
 - Investor information
-- Funded opportunity
+- The package funded
 - Investment amount
 - Investment date
 - Investment status
 
-Investment amounts cannot exceed the remaining funding requirement of an opportunity.
+Investment amounts cannot exceed the remaining amount required by a package.
 
-## Fully Funded Opportunities
+## Fully Funded Packages
 
 When the required funding amount is reached:
 
-- The opportunity status changes to Fully Funded.
+- The package status changes to Fully Funded.
 - Additional investment is prevented.
 - Relevant users are notified.
 
@@ -45,7 +45,7 @@ After agreement acceptance:
 
 ## Farmer Disbursement
 
-Cooperative Admins record funds provided to farmers.
+Cooperative Admins record funds provided to the farmers enrolled in a package.
 
 Disbursement records include:
 

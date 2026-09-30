@@ -7,7 +7,7 @@ client = chromadb.PersistentClient(
 
 
 collection = client.get_or_create_collection(
-    name="collabfarm_knowledge_v5"
+    name="collabfarm_knowledge_v7"
 )
 
 

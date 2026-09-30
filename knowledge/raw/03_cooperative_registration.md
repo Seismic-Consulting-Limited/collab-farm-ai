@@ -1,4 +1,4 @@
-# CollabFarm Cooperative Registration Guide
+# # CollabFarm Cooperative Registration Guide
 
 ## Overview
 
@@ -43,7 +43,7 @@ The Cooperative Admin can then:
 - Submit farmer information.
 - Add farm information.
 - Create farming cycles.
-- Create farmer funding opportunities.
+- Choose or create funding packages and submit them for review.
 - Track funding activities.
 
 ## Cooperative Access Status

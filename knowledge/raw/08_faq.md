@@ -1,10 +1,10 @@
-# CollabFarm Frequently Asked Questions
+# # CollabFarm Frequently Asked Questions
 
 ## What is CollabFarm?
 
 CollabFarm is an agricultural financing platform that connects verified farmers managed by cooperatives with investors.
 
-The platform connects real farmers, farms, farming activities and funding opportunities.
+Cooperatives document real farmers and farms, raise funding through funding packages, and investors fund those packages.
 
 ## Who uses CollabFarm?
 
@@ -23,11 +23,58 @@ The CollabFarm process is:
 3. Farmers are verified.
 4. Farm information is recorded.
 5. Farming cycles are created.
-6. Farmer funding opportunities are created.
-7. Funding requirements are calculated.
-8. Approved opportunities become available to investors.
-9. Investors fund farming opportunities.
-10. Farming progress and settlement are tracked.
+6. The cooperative chooses or creates a funding package and submits it for review.
+7. Approved packages become available to investors.
+8. Investors invest in the packages.
+9. Farming progress and settlement are tracked.
+
+## What is a funding package?
+
+A funding package is how a cooperative raises funding for its farmers.
+
+A package covers a farming category, such as crop farming, fishery, poultry, livestock or mixed farming, and comes in types such as Starter, Growth and Commercial for farming at different scales.
+
+A package sets out its funding amount, its tenure, the expected return, the cooperative's share, and what the funding covers, such as seeds, fertilizer, land preparation, labour or equipment.
+
+## Do investors invest in a farmer or in a package?
+
+Investors invest in funding packages.
+
+An investor can invest in a single package or in several packages. The farmers enrolled in a package are documented and verified by the cooperative that created it.
+
+## What are the three package types?
+
+Funding packages come in three types: Starter, Growth and Commercial.
+
+The three types cover farming at different scales. Each one supports a complete farming cycle, but the level of support increases from Starter through Growth to Commercial, and so does the funding amount.
+
+Each type has a minimum funding amount: Starter from 1 million naira, Growth from 2 million naira, and Commercial from 5 million naira.
+
+What a package covers also depends on its farming category, such as crop farming, fishery, poultry, livestock or mixed farming.
+
+## What is the Starter package?
+
+The Starter package supports small scale farming.
+
+It starts from 1 million naira and covers the essential inputs needed to complete a farming cycle. For crop farming this means seeds, basic fertilizer, land preparation, and basic tools and inputs.
+
+## What is the Growth package?
+
+The Growth package supports farming at a larger scale than Starter.
+
+It starts from 2 million naira. In addition to the essentials, it adds support for labour and equipment. For crop farming this means quality seeds, fertilizer and pesticides, labour support, land preparation and basic equipment.
+
+## What is the Commercial package?
+
+The Commercial package supports farming at the largest scale.
+
+It starts from 5 million naira and adds mechanisation and support through to harvest. For crop farming this means improved seeds, fertilizer, pesticides and herbicides, irrigation support, labour and machinery, and harvesting and transport.
+
+## Can a cooperative create its own package?
+
+Yes.
+
+A Cooperative Admin can choose an existing package, or create a custom package based on the cooperative's own farming needs. A custom package is submitted for review before it becomes available to investors.
 
 ## How does a cooperative join CollabFarm?
 
@@ -41,47 +88,23 @@ After approval, Cooperative Admins can manage farmers and farming activities.
 
 Cooperative Admins can add farmers belonging to their cooperative.
 
-Farmers start with a Pending verification status and must be verified before being attached to funding opportunities.
+Farmers start with a Pending verification status and must be verified before being enrolled in a funding package.
 
 ## How are farmers verified?
 
-Farmer verification ensures that only eligible farmers can receive investment.
+Farmer verification ensures that only eligible farmers can receive funding.
 
-Only verified farmers can be selected for funding opportunities.
+Only verified farmers can be enrolled in a funding package.
 
-## What information is used to create funding opportunities?
+## Who creates farming cycles?
 
-Funding opportunities are created from real agricultural information, including:
+The Cooperative Admin creates farming cycles.
 
-- Verified farmer information
-- Farm information
-- Crop information
-- Farming cycle
-- Farming costs
-- Expected agricultural outcomes
+A farming cycle defines the crop, start date, planting date, harvest date and settlement date for an agricultural season. Closed cycles cannot be used for new funding.
 
-## Do investors create investment packages?
+## How do investors find packages?
 
-No.
-
-CollabFarm funding opportunities are created from real farmer farming activities managed by cooperatives.
-
-The funding requirement is calculated from farm information and farming costs.
-
-## How do investors find opportunities?
-
-Investors can view approved and open farming opportunities.
-
-They can review information such as:
-
-- Farmer reference
-- Crop
-- Farm size
-- Location information
-- Cooperative information
-- Funding requirement
-- Amount already funded
-- Remaining funding amount
+Investors can view funding packages that have been approved and are open for funding, browsing them by farming category and package type.
 
 ## Can investors see private farmer information?
 
@@ -89,9 +112,9 @@ No.
 
 Sensitive information such as NIN is not exposed to investors.
 
-Investors only receive information required to evaluate an opportunity.
+Investors only receive the information required to evaluate a funding package.
 
-## What happens after an investor funds an opportunity?
+## What happens after an investor funds a package?
 
 After funding:
 
@@ -99,7 +122,7 @@ After funding:
 - Funding progress updates.
 - Required agreement acceptance is completed.
 - Funds are released according to the approved process.
-- The cooperative records farmer disbursement.
+- The cooperative records disbursement to the farmers in the package.
 - Farming progress is tracked.
 - Settlement is recorded.
 
@@ -113,11 +136,11 @@ Investors can monitor:
 - Settlement information
 - Investment history
 
-## Can investors invest after an opportunity is fully funded?
+## Can investors invest after a package is fully funded?
 
 No.
 
-When the required funding amount is reached, the opportunity becomes Fully Funded and additional investment is prevented.
+When the required funding amount is reached, the package becomes Fully Funded and additional investment is prevented.
 
 ## How is farming progress tracked?
 

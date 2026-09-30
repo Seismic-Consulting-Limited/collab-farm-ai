@@ -1,19 +1,21 @@
-# CollabFarm Overview
+## CollabFarm Overview
 
 ## What is CollabFarm?
 
 CollabFarm is an agricultural financing platform that connects verified farmers managed by cooperatives with investors.
 
-The platform enables cooperatives to document real farmers, their farms, crops, farming costs and farming seasons. This information is used to create individual farmer funding opportunities that investors can fund.
+The platform enables cooperatives to document real farmers, their farms, crops and farming seasons. Cooperatives then use funding packages to raise the financing those farmers need, and investors fund those packages.
 
-CollabFarm tracks investments from funding through farming, harvest and settlement.
+CollabFarm tracks funding from investment through farming, harvest and settlement.
 
 ## Core Principle
 
-Every investment must be connected to:
+Investors invest in funding packages.
 
-- A real, verified farmer
-- A real farm
+Every funding package must be connected to:
+
+- Real, verified farmers
+- Real farms
 - A defined farming cycle
 
 ## The CollabFarm Product Model
@@ -28,7 +30,7 @@ Farm / Farming Activity
 ↓  
 Farming Cycle  
 ↓  
-Funding Requirement  
+Funding Package  
 ↓  
 Investment  
 ↓  
@@ -38,9 +40,7 @@ Farming Progress
 ↓  
 Harvest / Settlement
 
-The farmer and farming cycle are the foundation of each investment.
-
-A cooperative does not create an arbitrary investment package. Instead, the cooperative provides real agricultural information from which the funding requirement is calculated.
+The cooperative documents real farmers and farms first. The funding package is how that documented farming activity is presented to investors.
 
 ## The MVP Journey
 
@@ -50,22 +50,21 @@ The core CollabFarm journey is:
 2. Farmer onboarding
 3. Farmer verification
 4. Farm registration
-5. Farming cycle selection
-6. Farmer funding opportunity creation
-7. Funding calculation
-8. Funding opportunity submission
-9. Super Admin approval
-10. Opportunity becomes available to investors
-11. Investor reviews the opportunity
-12. Investor invests
-13. Investment becomes fully funded
-14. Investment agreement is accepted
-15. Funds are released
-16. Cooperative records farmer disbursement
-17. Farming progress is updated
-18. Harvest is recorded
-19. Settlement is recorded
-20. Investment becomes completed
+5. Farming cycle
+6. Funding package selection or creation
+7. Package submission for review
+8. Super Admin approval
+9. Package becomes available to investors
+10. Investor reviews the package
+11. Investor invests in the package
+12. Package funding is completed
+13. Investment agreement is accepted
+14. Funds are released
+15. Cooperative records farmer disbursement
+16. Farming progress is updated
+17. Harvest is recorded
+18. Settlement is recorded
+19. Investment becomes completed
 
 ## Main Platform Users
 

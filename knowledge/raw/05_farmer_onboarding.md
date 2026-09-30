@@ -1,12 +1,12 @@
-# CollabFarm Farmer Onboarding Guide
+# # CollabFarm Farmer Onboarding Guide
 
 ## Overview
 
-Farmer onboarding is the foundation of the CollabFarm investment process.
+Farmer onboarding is the foundation of the CollabFarm funding process.
 
 CollabFarm enables Cooperative Admins to document real farmers, their farms, crops, farming activities and seasons.
 
-Every investment must be connected to a real verified farmer, a real farm and a defined farming cycle.
+Every funding package must be connected to real verified farmers, real farms and a defined farming cycle.
 
 ## Adding a Farmer
 
@@ -20,7 +20,7 @@ When adding a farmer:
 
 ## Farmer Verification
 
-Farmer verification ensures that only eligible farmers can be attached to funding opportunities.
+Farmer verification ensures that only eligible farmers can be enrolled in a funding package.
 
 Verification statuses include:
 
@@ -28,7 +28,7 @@ Verification statuses include:
 - Verified
 - Rejected
 
-Only verified farmers can be selected for funding opportunities.
+Only verified farmers can be enrolled in a funding package.
 
 ## Farm Registration
 
@@ -44,7 +44,9 @@ Farm information is linked to the farmer record.
 
 ## Farming Activities and Cycles
 
-Each farmer funding opportunity is linked to a farming cycle.
+Each funding package is linked to a farming cycle.
+
+The Cooperative Admin creates farming cycles.
 
 A farming cycle defines the agricultural period for the activity.
 
@@ -56,7 +58,7 @@ It includes:
 - Harvest date
 - Settlement date
 
-The farming cycle ensures that investments are connected to a specific agricultural season.
+The farming cycle ensures that funding is connected to a specific agricultural season.
 
 ## Farmer Funding Eligibility
 
@@ -70,19 +72,19 @@ Before a farmer can receive funding:
 
 CollabFarm protects farmer information.
 
-Investors can view information required to evaluate an opportunity.
+Investors can view the information required to evaluate a funding package.
 
 Sensitive information such as NIN is not exposed to investors.
 
 ## Supporting Documents
 
-Cooperative Admins can upload supporting documents related to farmer and investment records.
+Cooperative Admins can upload supporting documents related to farmer and funding records.
 
 Documents are linked to the correct record and access is restricted to authorized users.
 
 ## Farmer Progress Tracking
 
-After investment, farming progress can be updated.
+Once funding is in place, farming progress can be updated.
 
 Progress stages include:
 

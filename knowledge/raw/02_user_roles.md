@@ -1,4 +1,8 @@
-# CollabFarm User Roles
+---
+
+---
+
+# # CollabFarm User Roles
 
 CollabFarm has three primary user roles:
 
@@ -15,8 +19,8 @@ Responsibilities include:
 - Managing cooperatives.
 - Managing investors.
 - Reviewing farmer verification.
-- Reviewing funding opportunities.
-- Approving or rejecting funding opportunities.
+- Reviewing funding packages.
+- Approving or rejecting funding packages.
 - Monitoring investments.
 - Monitoring disbursements.
 - Monitoring settlements.
@@ -24,7 +28,7 @@ Responsibilities include:
 - Viewing audit logs.
 - Managing platform settings.
 
-The Super Admin also controls cooperative and investor approval and ensures that only approved opportunities become available to investors.
+The Super Admin also controls cooperative and investor approval and ensures that only approved packages become available to investors.
 
 ## Cooperative Admin
 
@@ -37,8 +41,9 @@ Responsibilities include:
 - Verifying and submitting farmer information.
 - Adding farm information.
 - Creating farming cycles.
-- Creating farmer funding requirements.
-- Submitting funding opportunities.
+- Choosing a funding package, or creating a custom package.
+- Submitting packages for review.
+- Enrolling farmers in a package.
 - Tracking funding.
 - Recording farmer disbursements.
 - Updating farming progress.
@@ -47,15 +52,14 @@ Responsibilities include:
 
 ## Investor
 
-The Investor provides funding for individual farmers.
+The Investor provides funding by investing in funding packages.
 
 Responsibilities include:
 
 - Creating an investor account.
-- Viewing approved farming opportunities.
-- Viewing farmer and farm information.
-- Reviewing funding requirements.
-- Investing in farmers.
+- Viewing approved funding packages.
+- Reviewing package details.
+- Investing in one or more packages.
 - Tracking active investments.
 - Viewing expected settlement.
 - Viewing investment history.
@@ -67,6 +71,6 @@ CollabFarm uses role-based access control.
 
 - Super Admins can access platform management features.
 - Cooperative Admins can access their cooperative's data and activities.
-- Investors can access their own investment information and permitted farming opportunity information.
+- Investors can access their own investment information and permitted package information.
 
 Users cannot access features or information outside their authorized role.

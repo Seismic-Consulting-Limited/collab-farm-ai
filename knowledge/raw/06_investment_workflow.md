@@ -1,16 +1,15 @@
-# CollabFarm Investment Workflow
+# # CollabFarm Investment Workflow
 
 ## Overview
 
-CollabFarm connects investors with verified farmer funding opportunities created from real agricultural information.
+CollabFarm connects investors with approved funding packages created by cooperatives from real agricultural information.
 
-Every investment is connected to:
+Every funding package is connected to:
 
-- A verified farmer
-- A farm
+- Verified farmers
+- Their farms
 - A farming activity
 - A defined farming cycle
-- A calculated funding requirement
 
 ## Step 1: Cooperative Prepares Farmer Information
 
@@ -21,39 +20,28 @@ The Cooperative Admin:
 - Adds farm information.
 - Selects a farming cycle.
 
-The farmer must be verified before being attached to a funding opportunity.
+A farmer must be verified before being enrolled in a funding package.
 
-## Step 2: Funding Opportunity Creation
+## Step 2: Funding Package Selection or Creation
 
-The Cooperative Admin creates a funding opportunity based on the farmer's farming activity.
+The Cooperative Admin chooses a funding package that fits the cooperative's farming needs, or creates a custom package.
 
-The opportunity includes:
+A package sets out:
 
-- Farmer information
-- Farm information
-- Crop
-- Farming cycle
-- Farming costs
-- Expected agricultural outcomes
+- Package name and type
+- Farming category
+- Tenure
+- Total package amount
+- Expected return
+- Cooperative share
+- Start and end dates
+- What the package includes, item by item
 
-## Step 3: Funding Requirement Calculation
+## Step 3: Submission and Review
 
-CollabFarm calculates the required funding based on farming economics.
+The Cooperative Admin submits the package.
 
-The calculation considers:
-
-- Farm size
-- Cost per hectare
-- Production costs
-- Farmer contribution
-
-The funding requirement represents the actual amount needed for the farming activity.
-
-## Step 4: Opportunity Submission and Review
-
-The Cooperative Admin submits the funding opportunity.
-
-The Super Admin reviews the opportunity before it becomes available to investors.
+The Super Admin reviews it before it becomes available to investors.
 
 The Super Admin can:
 
@@ -61,45 +49,33 @@ The Super Admin can:
 - Reject
 - Request changes
 
-Only approved opportunities become visible to investors.
+Only approved packages become visible to investors.
 
-## Step 5: Investor Reviews Opportunity
+## Step 4: Investor Reviews the Package
 
-Investors browse approved farming opportunities.
-
-Investors can review:
-
-- Farmer reference
-- Crop
-- Farm size
-- Location information
-- Cooperative information
-- Production cost
-- Funding requirement
-- Amount already funded
-- Remaining funding amount
+Investors browse approved packages and review what the package covers, the farming cycle, the amount required, the tenure and the expected return.
 
 Sensitive farmer information is protected.
 
-## Step 6: Investor Funding
+## Step 5: Investor Funding
 
-Approved investors can invest in available farmer opportunities.
+Approved investors can invest in available packages. An investor can invest in one package or in several.
 
 The system ensures:
 
-- Investment amount does not exceed remaining funding requirement.
+- Investment amount does not exceed the remaining amount required.
 - Investment is recorded after confirmation.
 - Funding progress updates.
 
-## Step 7: Fully Funded Opportunity
+## Step 6: Funding Completion
 
 When the required funding amount is reached:
 
-- The opportunity becomes Fully Funded.
+- The package is fully funded.
 - Additional investment is prevented.
 - Relevant users are notified.
 
-## Step 8: Investment Agreement
+## Step 7: Investment Agreement
 
 Before funds are released, the investment agreement must be accepted by required parties.
 
@@ -112,12 +88,12 @@ The agreement contains:
 
 Funds cannot be released before required acceptance.
 
-## Step 9: Fund Release and Farmer Disbursement
+## Step 8: Fund Release and Farmer Disbursement
 
 After agreement acceptance:
 
 - Funds are released according to the approved process.
-- Cooperative Admin records farmer disbursement.
+- The Cooperative Admin records disbursement to each farmer enrolled in the package.
 
 Disbursement records include:
 
@@ -127,9 +103,9 @@ Disbursement records include:
 - Date
 - Supporting evidence where required
 
-## Step 10: Farming Progress Tracking
+## Step 9: Farming Progress Tracking
 
-During the farming cycle, Cooperative Admins update progress.
+During the farming cycle, Cooperative Admins update progress for the farmers in the package.
 
 Progress stages include:
 
@@ -143,7 +119,7 @@ Progress stages include:
 
 Investors can monitor farming progress.
 
-## Step 11: Harvest and Settlement
+## Step 10: Harvest and Settlement
 
 After harvest:
 

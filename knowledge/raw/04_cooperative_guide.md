@@ -4,7 +4,7 @@
 
 A Cooperative Admin manages farmers and farming activities belonging to the cooperative.
 
-The Cooperative Admin is responsible for maintaining accurate farmer information and preparing farmer funding opportunities for investors.
+The Cooperative Admin is responsible for maintaining accurate farmer information and for raising funding through funding packages.
 
 ## Cooperative Profile
 
@@ -30,7 +30,7 @@ Farmer verification statuses include:
 - Verified
 - Rejected
 
-Only verified farmers can be attached to funding opportunities.
+Only verified farmers can be enrolled in a funding package.
 
 ## Farm Registration
 
@@ -46,7 +46,9 @@ Farm information is linked to the farmer record.
 
 ## Farming Cycles
 
-Each farmer funding opportunity is connected to a farming cycle.
+Each funding package is connected to a farming cycle.
+
+The Cooperative Admin creates farming cycles.
 
 A farming cycle defines the agricultural activity period, including:
 
@@ -56,52 +58,87 @@ A farming cycle defines the agricultural activity period, including:
 - Harvest date
 - Settlement date
 
-Closed farming cycles cannot be used for new funding opportunities.
+Closed farming cycles cannot be used for new funding.
 
-## Creating Farmer Funding Opportunities
+## Funding Packages
 
-Cooperative Admins create funding opportunities based on real farmer farming activities.
+Funding is raised through funding packages.
 
-A funding opportunity includes:
+Packages are organised by farming category, such as crop farming, fishery, poultry, livestock and mixed farming. Within each category, packages come in three types: Starter, Growth and Commercial.
 
-- Verified farmer
-- Farm information
-- Farming activity
-- Farming cycle
-- Farming costs
-- Expected agricultural outcomes
+A Cooperative Admin can choose an existing package that fits the cooperative's farming needs, or create a custom package.
 
-The funding requirement is calculated from actual farming information.
+## The Three Package Types
 
-## Funding Calculation
+The three package types cover farming at different scales. Each type supports a complete farming cycle, but the level of support increases from Starter through Growth to Commercial, and so does the funding amount.
 
-CollabFarm calculates funding requirements based on farming economics.
+What a package covers depends on its farming category. For crop farming, the three types work as follows.
 
-The calculation considers:
+Starter, for small scale farming, covers the essential inputs needed to complete a farming cycle:
 
-- Farm size
-- Cost per hectare
-- Production costs
-- Farmer contribution
+- Seeds
+- Basic fertilizer
+- Land preparation
+- Basic tools and inputs
 
-The calculated funding requirement must reflect the actual farming activity.
+Growth, for farming at a larger scale, adds support for labour and equipment:
 
-## Cost Breakdown
+- Quality seeds
+- Fertilizer and pesticides
+- Labour support
+- Land preparation
+- Basic equipment
 
-Cooperative Admins provide a breakdown of farming costs.
+Commercial, for farming at the largest scale, adds mechanisation and support through to harvest:
 
-Cost categories include:
+- Improved seeds
+- Fertilizer, pesticides and herbicides
+- Irrigation support
+- Labour and machinery
+- Harvesting and transport
 
-- Farming expenses
-- Amounts required for the activity
+## Package Minimum Amounts
 
-The total cost breakdown must match the production cost before submission.
+Each package type has a minimum funding amount:
 
-## Submitting Funding Opportunities
+- Starter: from 1 million naira
+- Growth: from 2 million naira
+- Commercial: from 5 million naira
 
-Once complete, the Cooperative Admin can submit a funding opportunity for review.
+A package can be funded above its minimum. Each package states its own funding amount and tenure.
 
-The opportunity moves through approval before becoming available to investors.
+## Creating a Custom Package
+
+A custom package is created in two parts.
+
+Package basics:
+
+- Package name
+- Package type
+- Category
+- Tenure
+- Short description
+
+Funding details:
+
+- Total package amount
+- Expected duration
+- Expected return
+- Cooperative share
+- Start date and end date
+- What the package includes, listed item by item with an amount for each
+
+A package can be saved as a draft before it is submitted.
+
+## Submitting a Package
+
+Once complete, the Cooperative Admin submits the package for review.
+
+The package moves through approval before it becomes available to investors. A cooperative can see how many of its packages are under review, active and completed.
+
+## Enrolling Farmers
+
+Verified farmers are enrolled in a package. Each enrolled farmer has their own payout date, payback date and farming progress.
 
 ## Tracking Funding Activities
 
@@ -122,6 +159,8 @@ Disbursement records include:
 - Amount
 - Date
 - Investment reference
+
+Total disbursement cannot exceed the funds available.
 
 ## Farming Progress
 
