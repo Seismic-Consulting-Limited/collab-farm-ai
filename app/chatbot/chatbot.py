@@ -1,9 +1,6 @@
 from app.retrieval.retriever import search_knowledge
 from app.chatbot.ollama_client import generate_answer
-from app.chatbot.memory import (
-    add_message,
-    get_history
-)
+from app.chatbot.memory import add_message, get_history
 
 
 SYSTEM_PROMPT = """
@@ -33,100 +30,42 @@ Accuracy rules:
 - Always maintain a professional and helpful tone.
 """
 
+
 def chat(question, session_id):
+    normalized_question = question.strip().casefold()
+    history = get_history(session_id)
 
-    # Store user's message in memory
-    add_message(
-        session_id,
-        "user",
-        question
-    )
+    # Return the prior answer only when this exact question has a
+    # corresponding assistant message immediately after it.
+    for index, message in enumerate(history):
+        if (
+            message.get("role") == "user"
+            and message.get("content", "").strip().casefold()
+            == normalized_question
+        ):
+            if index + 1 < len(history):
+                next_message = history[index + 1]
+                if next_message.get("role") == "assistant":
+                    return {"answer": next_message["content"]}
 
+    add_message(session_id, "user", question)
 
-    # Retrieve relevant V5 CollabFarm knowledge
-    documents = search_knowledge(
-        question
-    )
+    documents = search_knowledge(question)
+    context = "\n\n".join(doc["content"] for doc in documents)
 
-
-    # Combine retrieved knowledge
-    context = "\n\n".join(
-        [
-            doc["content"]
-            for doc in documents
-        ]
-    )
-
-
-    # Collect source documents
-    sources = list(
-        set(
-            [
-                doc["source"]
-                for doc in documents
-            ]
-        )
-    )
-
-
-    # Build messages for Ollama Cloud
-    messages = [
-        {
-            "role": "system",
-            "content": SYSTEM_PROMPT
-        }
-    ]
-
-
-    # Add previous conversation history
-    messages.extend(
-        get_history(session_id)
-    )
-
-
-    # Add current question with retrieved context
+    messages = [{"role": "system", "content": SYSTEM_PROMPT}]
+    messages.extend(get_history(session_id))
     messages.append(
         {
             "role": "user",
-            "content": f"""
-Use the following CollabFarm knowledge to answer the question.
-
-CollabFarm Context:
-
-{context}
-
-
-Current Question:
-
-{question}
-"""
+            "content": (
+                "Use the following CollabFarm knowledge to answer the question.\n\n"
+                f"CollabFarm Context:\n{context}\n\n"
+                f"Current Question:\n{question}"
+            ),
         }
     )
 
-
-    # Generate response using Ollama Cloud
-    answer = generate_answer(
-        messages
-    )
-
-
-    # Store assistant response in memory
-    add_message(
-        session_id,
-        "assistant",
-        answer
-    )
-
-
-    # Remove sources if answer says information is unavailable
-    if (
-        "The information is not available in the current CollabFarm knowledge."
-        in answer
-    ):
-        sources = []
-
-
-    return {
-        "answer": answer,
-        
-    }
+    answer = generate_answer(messages)
+    add_message(session_id, "assistant", answer)
+    return {"answer": answer}
