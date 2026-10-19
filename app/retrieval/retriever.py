@@ -1,68 +1,25 @@
-import chromadb
-
+import numpy as np
 from sentence_transformers import SentenceTransformer
 
+from app.db import get_pool
 
-# Load embedding model
-model = SentenceTransformer(
-    "all-MiniLM-L6-v2"
-)
+model = SentenceTransformer("all-MiniLM-L6-v2")
 
-
-# Connect to ChromaDB V5
-client = chromadb.PersistentClient(
-    path="knowledge/chroma_db"
-)
-
-
-collection = client.get_collection(
-    name="collabfarm_knowledge_v7"
-)
+SEARCH_SQL = """
+SELECT content, source, embedding <=> %s AS distance
+FROM knowledge_chunks
+ORDER BY embedding <=> %s
+LIMIT %s
+"""
 
 
 def search_knowledge(question, top_k=8):
+    query = np.array(model.encode(question), dtype=np.float32)
 
-    # Convert question into embedding
-    question_embedding = model.encode(
-        question
-    ).tolist()
+    with get_pool().connection() as conn:
+        rows = conn.execute(SEARCH_SQL, (query, query, top_k)).fetchall()
 
-
-    # Search ChromaDB
-    results = collection.query(
-        query_embeddings=[
-            question_embedding
-        ],
-        n_results=top_k,
-        include=[
-            "documents",
-            "metadatas",
-            "distances"
-        ]
-    )
-
-
-
-
-    documents = results["documents"][0]
-
-    sources = results["metadatas"][0]
-
-
-    retrieved = []
-
-
-    for document, source in zip(
-        documents,
-        sources
-    ):
-
-        retrieved.append(
-            {
-                "content": document,
-                "source": source["source"]
-            }
-        )
-
-
-    return retrieved
+    return [
+        {"content": content, "source": source, "distance": float(distance)}
+        for content, source, distance in rows
+    ]

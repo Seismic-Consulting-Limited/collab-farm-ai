@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api_main.py": {
+      "maxDuration": 60
+    }
+  }
+}

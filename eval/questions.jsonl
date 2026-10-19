@@ -1,0 +1,30 @@
+﻿{"id":1,"category":"overview","question":"What is CollabFarm?","expected":["CollabFarm","farmers","investors"]}
+{"id":2,"category":"overview","question":"How does CollabFarm work?","expected":["cooperative","investor","farm","fund"]}
+{"id":3,"category":"cooperative","question":"What can cooperatives do on CollabFarm?","expected":["cooperative","farmer","farm"]}
+{"id":4,"category":"cooperative","question":"How are farmers registered on CollabFarm?","expected":["farmer","registration","cooperative"]}
+{"id":5,"category":"cooperative","question":"Who manages farmers on the CollabFarm platform?","expected":["cooperative","farmer"]}
+{"id":6,"category":"farmer","question":"What information is recorded about a farmer?","expected":["farmer"]}
+{"id":7,"category":"farmer","question":"How is a farmer's farm registered on CollabFarm?","expected":["farm","farmer"]}
+{"id":8,"category":"farm","question":"What farm information does CollabFarm track?","expected":["farm","crop"]}
+{"id":9,"category":"farm_cycle","question":"What is a farming cycle on CollabFarm?","expected":["farming","cycle"]}
+{"id":10,"category":"farm_cycle","question":"How does CollabFarm track a farming cycle?","expected":["cycle","planting","harvest"]}
+{"id":11,"category":"funding","question":"What are funding opportunities on CollabFarm?","expected":["funding"]}
+{"id":12,"category":"funding","question":"How are funding packages created on CollabFarm?","expected":["funding","package","farmer"]}
+{"id":13,"category":"funding","question":"How does CollabFarm calculate the amount needed to fund a farm?","expected":["funding","calculation"]}
+{"id":14,"category":"funding_pm","question":"What is the exact funding model used by CollabFarm to determine investor returns?","expected":["funding","investor"]}
+{"id":15,"category":"investor","question":"What can investors do on CollabFarm?","expected":["investor","fund"]}
+{"id":16,"category":"investor","question":"How does an investor fund a farming opportunity?","expected":["investor","fund"]}
+{"id":17,"category":"investment","question":"How can an investor track an investment?","expected":["invest","track"]}
+{"id":18,"category":"investment","question":"What happens after an investor funds a farming package?","expected":["fund","farming","track"]}
+{"id":19,"category":"disbursement","question":"How does CollabFarm handle money disbursement during a farming cycle?","expected":["disbursement","fund"]}
+{"id":20,"category":"tracking","question":"How does CollabFarm track money from investment to settlement?","expected":["investment","settlement","track"]}
+{"id":21,"category":"settlement","question":"What is settlement on CollabFarm?","expected":["settlement"]}
+{"id":22,"category":"settlement","question":"When does the farming process reach final settlement?","expected":["settlement","harvest"]}
+{"id":23,"category":"transparency","question":"How does CollabFarm provide transparency and accountability?","expected":["transparency","accountability"]}
+{"id":24,"category":"platform","question":"What information can the CollabFarm AI assistant answer questions about?","expected":["CollabFarm","farmer","investor"]}
+{"id":25,"category":"greeting","question":"Hello","expected":["hello"]}
+{"id":26,"category":"greeting","question":"Hi, how are you?","expected":["hi","hello"]}
+{"id":27,"category":"thanks","question":"Thank you for your help.","expected":["thank"]}
+{"id":28,"category":"unsupported","question":"What is the current weather in Abuja?","expected":["not available","CollabFarm"]}
+{"id":29,"category":"unsupported","question":"Who won the latest football match?","expected":["not available","CollabFarm"]}
+{"id":30,"category":"unsupported","question":"Can you help me write a Python program to calculate my taxes?","expected":["not available","CollabFarm"]}

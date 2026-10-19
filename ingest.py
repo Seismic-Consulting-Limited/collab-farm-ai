@@ -1,7 +1,7 @@
 from app.ingestion.loader import load_markdown_documents
 from app.ingestion.splitter import split_documents
 from app.ingestion.embedder import create_embeddings
-from app.vectorstore.chroma import store_embeddings
+from app.vectorstore.pgvector_store import store_embeddings
 
 
 documents = load_markdown_documents(
@@ -25,5 +25,5 @@ stored = store_embeddings(
 
 
 print(
-    f"Stored {stored} chunks in ChromaDB"
+    f"Stored {stored} chunks in Postgres"
 )

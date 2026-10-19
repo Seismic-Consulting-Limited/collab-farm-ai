@@ -1,0 +1,367 @@
+[
+  {
+    "id": 1,
+    "category": "overview",
+    "question": "What is CollabFarm?",
+    "expected_keywords": [
+      "CollabFarm",
+      "farmers",
+      "investors"
+    ],
+    "answer": "**CollabFarm Overview**\n\n- **Purpose:** An agricultural financing platform that links verified farmers—organized and managed by cooperatives—with investors who provide the needed funding.  \n- **How it works:**  \n  - Cooperatives record real farmers, their farms, crops and farming seasons.  \n  - They create **funding packages** that bundle the financing requirements for those farms and cycles.  \n  - Investors browse and fund these packages.  \n- **Tracking:** The platform follows the money from the investor’s commitment through fund disbursement, farming operations, harvest and final settlement.  \n\nIn short, CollabFarm is a marketplace that makes it possible for farmers to obtain financing via cooperatives, while giving investors transparent access to real‑world agricultural projects.",
+    "latency_seconds": 1.987,
+    "error": null
+  },
+  {
+    "id": 2,
+    "category": "overview",
+    "question": "How does CollabFarm work?",
+    "expected_keywords": [
+      "cooperative",
+      "investor",
+      "farm",
+      "fund"
+    ],
+    "answer": "**How CollabFarm Works**\n\nCollabFarm is a platform that links real, verified farmers (through their cooperatives) with investors who want to fund agricultural projects. The process follows a clear, step‑by‑step workflow.\n\n---\n\n### 1. Cooperative Onboarding\n- **Cooperative approval** – The cooperative is vetted and approved by CollabFarm.\n- **Add farmers** – Cooperative Admins enter farmer details into the system.\n- **Farmer verification** – Each farmer is verified (status: Pending → Verified or Rejected).\n- **Record farm information** – Details about each farm, crops, and farming season are entered.\n- **Create farming cycles** – Define the specific farming cycle for each farm.\n\n### 2. Funding Package Creation\n- **Choose or create a package** – The cooperative selects an existing funding package or builds a custom one.\n- **Connect to verified farmers & farms** – The package must be linked to real farmers, their farms, and a defined farming cycle.\n- **Submit for review** – The package is sent to CollabFarm for approval.\n\n### 3. Investor Participation\n- **Investor registration** – Investors sign up, are reviewed, and receive “Approved” status.\n- **Discover packages** – Approved investors browse available, approved funding packages.\n- **Invest** – Investors commit funds to a package (up to the amount still needed).  \n- **Package becomes Fully Funded** – When total commitments meet the required amount, the package status changes to “Fully Funded” and no further investments are accepted.\n\n### 4. Funding Flow & Tracking\n- **Disbursement** – Funds are released to the cooperative and then to the verified farmers as needed.\n- **Progress monitoring** – Farming activities, harvest, and other milestones are tracked on the platform.\n- **Settlement** – After harvest, the platform records returns and settles any repayments or profit sharing with investors.\n\n---\n\n### Key Users\n- **Super Admin** – Oversees the entire system.  \n- **Cooperative Admin** – Manages farmers, farms, cycles, and creates funding packages.  \n- **Investor** – Reviews and funds approved packages, then monitors performance.\n\nIn short, CollabFarm ensures that every investment is tied to verified agricultural activity, providing transparency and security for both farmers and investors.",
+    "latency_seconds": 2.506,
+    "error": null
+  },
+  {
+    "id": 3,
+    "category": "cooperative",
+    "question": "What can cooperatives do on CollabFarm?",
+    "expected_keywords": [
+      "cooperative",
+      "farmer",
+      "farm"
+    ],
+    "answer": "**What Cooperatives Can Do on CollabFarm**\n\nA Cooperative (through its Cooperative Admin) can manage the entire farming‑financing lifecycle. Their main actions are:\n\n- **Register and maintain the cooperative profile** – keep cooperative details up‑to‑date for investors and platform admins.  \n- **Add and manage farmers** – enter farmer information, generate a unique farmer reference, and view the pending verification status.  \n- **Verify farmers** – work with the Super Admin to confirm that each farmer is legitimate before they can be used in funding packages.  \n- **Record farm information** – capture details about each farmer’s land, crops, and other farm data.  \n- **Create farming cycles** – define planting, growing, and harvest periods for each farm.  \n- **Create or select a funding package** – bundle verified farmers, farms, and a farming cycle into a package that specifies the financing needed.  \n- **Submit funding packages for review** – send the package to the Super Admin for approval so it can be listed for investors.  \n- **Track funding and farming progress** – monitor investor investments, disburse funds to farmers, update farming progress, record harvest results, and manage settlement of the investment.  \n\nIn short, cooperatives manage farmer onboarding, verify data, document farms and cycles, raise financing through funding packages, and oversee the whole investment‑to‑harvest process on CollabFarm.",
+    "latency_seconds": 1.969,
+    "error": null
+  },
+  {
+    "id": 4,
+    "category": "cooperative",
+    "question": "How are farmers registered on CollabFarm?",
+    "expected_keywords": [
+      "farmer",
+      "registration",
+      "cooperative"
+    ],
+    "answer": "**Farmer Registration Process**\n\n1. **Cooperative must be approved**  \n   - Only after a Cooperative is approved by the Super Admin can its admins manage farmers.\n\n2. **Cooperative Admin adds a farmer**  \n   - The admin selects “Add Farmer” within the cooperative’s dashboard.  \n   - All required farmer information (name, contact details, etc.) is entered.  \n\n3. **System creates a unique farmer reference**  \n   - Once the form is saved, CollabFarm generates a unique ID for the farmer.  \n\n4. **Initial status is *Pending* verification**  \n   - The newly added farmer is marked as **Pending** and cannot be included in a funding package until verification is completed.  \n\n5. **Farmer verification (next step)**  \n   - The Cooperative Admin (or designated verifier) reviews the farmer’s details and changes the status to **Verified** (or **Rejected** if the information is insufficient).  \n\nOnly after verification can the farmer be linked to a farm, a farming activity, and a farming cycle for a funding package.",
+    "latency_seconds": 1.51,
+    "error": null
+  },
+  {
+    "id": 5,
+    "category": "cooperative",
+    "question": "Who manages farmers on the CollabFarm platform?",
+    "expected_keywords": [
+      "cooperative",
+      "farmer"
+    ],
+    "answer": "**Cooperative Admins** are responsible for managing farmers on CollabFarm.  \nThey add farmers, maintain farmer information, and oversee the verification process for the farmers belonging to their cooperative.",
+    "latency_seconds": 1.357,
+    "error": null
+  },
+  {
+    "id": 6,
+    "category": "farmer",
+    "question": "What information is recorded about a farmer?",
+    "expected_keywords": [
+      "farmer"
+    ],
+    "answer": "**Information recorded for each farmer**\n\n- **Verification status**  \n  - Pending, Verified, or Rejected. Only a *Verified* farmer can be enrolled in a funding package.\n\n- **Farm details** (linked to the farmer record)  \n  - Farm size  \n  - Crop(s) grown on the farm  \n  - Farm location (address or geographic data)\n\n- **Supporting documents**  \n  - Any documents uploaded by the Cooperative Admin that relate to the farmer (e.g., land title, identity proof). Access is limited to authorized users.\n\n- **Funding‑related data** (created after the farmer is enrolled)  \n  - Enrolment in a specific funding package  \n  - Payout date and payback date for the package  \n  - Disbursement records (amount, date, investment reference) – total disbursement can never exceed the approved funds.  \n\n- **Farming progress** (updated as the farmer moves through the cycle)  \n  - Current progress stage (Not Started, Planting, Growing, Harvesting, Harvest Completed, Awaiting Settlement, Completed)  \n  - Optional notes and evidence attached to each stage.\n\n- **Sensitive personal data** (kept private, not shown to investors)  \n  - Information such as the farmer’s National Identification Number (NIN).  \n\nThese pieces of information together enable the Cooperative Admin to verify eligibility, manage funding, track progress, and maintain transparent records while keeping private data protected.",
+    "latency_seconds": 2.702,
+    "error": null
+  },
+  {
+    "id": 7,
+    "category": "farmer",
+    "question": "How is a farmer's farm registered on CollabFarm?",
+    "expected_keywords": [
+      "farm",
+      "farmer"
+    ],
+    "answer": "**Registering a Farm for a Farmer**\n\n1. **Cooperative Admin adds the farmer**  \n   - The admin enters all required farmer details.  \n   - The system creates a unique farmer reference and sets the status to **Pending**.\n\n2. **Enter farm information**  \n   - After the farmer record exists, the admin opens the farmer’s profile and selects **“Add Farm”** (or a similar option).  \n   - Required farm fields (e.g., farm name, location, size, type of land) must be completed.  \n\n3. **Link the farm to the farmer**  \n   - The new farm record is automatically associated with the farmer’s reference, so the platform knows which farm belongs to which farmer.\n\n4. **Select a farming cycle**  \n   - The admin chooses the appropriate farming cycle (season) for the farm’s activity. This ties the farm to a specific crop cycle and later to a funding package.\n\n5. **Save the record**  \n   - Once all required fields are filled, the admin saves the farm details. The farm is now registered in the system and will appear in the farmer’s profile.\n\n6. **Verification (later step)**  \n   - The farmer must be verified before the farm can be used in a funding package, but the registration itself is completed at the steps above.",
+    "latency_seconds": 1.836,
+    "error": null
+  },
+  {
+    "id": 8,
+    "category": "farm",
+    "question": "What farm information does CollabFarm track?",
+    "expected_keywords": [
+      "farm",
+      "crop"
+    ],
+    "answer": "**Farm information tracked by CollabFarm**\n\n- **Real farm records** – Every farm must be documented in the platform before a funding package can be created.  \n- **Linkage to the farmer** – The farm is associated with a verified farmer, establishing a clear connection between the farmer and the land.  \n- **Connection to a farming cycle** – The farm is tied to a specific farming activity and cycle (e.g., planting, growing, harvest) so that funding, progress updates, and settlement can be followed throughout the season.  \n\n*The exact data fields (such as size, location, or crop type) are not detailed in the current CollabFarm knowledge, but the system ensures that each farm’s basic record and its relationship to the farmer, activity, and cycle are captured and maintained.*",
+    "latency_seconds": 1.99,
+    "error": null
+  },
+  {
+    "id": 9,
+    "category": "farm_cycle",
+    "question": "What is a farming cycle on CollabFarm?",
+    "expected_keywords": [
+      "farming",
+      "cycle"
+    ],
+    "answer": "**Farming Cycle on CollabFarm**\n\nA farming cycle is the timeframe that describes a specific agricultural activity. It is created by a Cooperative Admin and must be linked to any funding package.  \n\nKey elements of a farming cycle:\n\n- **Crop** – the type of produce being grown (e.g., maize, wheat, fish, poultry).  \n- **Start date** – when the farming season officially begins.  \n- **Planting date** – the day the crop or livestock activity is actually started.  \n- **Harvest date** – when the produce is expected to be harvested or the activity completed.  \n- **Settlement date** – the date when the financial settlement (repayment to investors) takes place.\n\nOnly **open** farming cycles can be used for new funding; once a cycle is closed, it can no longer attract additional investments.",
+    "latency_seconds": 1.47,
+    "error": null
+  },
+  {
+    "id": 10,
+    "category": "farm_cycle",
+    "question": "How does CollabFarm track a farming cycle?",
+    "expected_keywords": [
+      "cycle",
+      "planting",
+      "harvest"
+    ],
+    "answer": "**How CollabFarm Tracks a Farming Cycle**\n\n- **Creation by the Cooperative Admin**  \n  - The admin sets up a farming cycle for each farming activity.  \n  - Required details include:  \n    - Crop type  \n    - Start date of the cycle  \n    - Planned planting date  \n    - Expected harvest date  \n    - Settlement date (when the harvest is sold and payments are settled)\n\n- **Linkage to Core Records**  \n  - Each farming cycle is attached to:  \n    - The verified farmer(s)  \n    - Their registered farm(s)  \n    - The specific funding package that will finance the activity  \n\n- **Integration in the Funding Workflow**  \n  - When a funding package is created or selected, the admin links it to the appropriate farming cycle.  \n  - This ensures that the money released, the disbursement to the farmer, and the later harvest/settlement are all tied to the same defined timeline.\n\n- **Progress Monitoring**  \n  - As the cycle moves forward, farming progress updates (e.g., planting completed, growth stages, harvest) are recorded against the cycle.  \n  - These updates help investors see how the agricultural activity is progressing relative to the planned dates.\n\n- **Settlement Tracking**  \n  - After the harvest date, the system records the settlement details (sale of produce, repayment to investors) using the cycle’s settlement date as the reference point.\n\nIn short, CollabFarm tracks a farming cycle by having the cooperative define its key dates and crop, linking that cycle to the farmer, farm, and funding package, and then updating progress and settlement information against this linked timeline.",
+    "latency_seconds": 2.277,
+    "error": null
+  },
+  {
+    "id": 11,
+    "category": "funding",
+    "question": "What are funding opportunities on CollabFarm?",
+    "expected_keywords": [
+      "funding"
+    ],
+    "answer": "**Funding Opportunities on CollabFarm**\n\n- **Approved Funding Packages**  \n  - After a cooperative creates or selects a funding package and it is approved by the Super Admin, the package becomes visible to investors.  \n  - Each package is linked to real, verified farmers, their farms, and a defined farming cycle.\n\n- **What Investors See**  \n  - A list of all approved packages that still have unfunded amounts.  \n  - Details for each package, such as the crop, farming season, total funding needed, and how much is already funded.\n\n- **How to Participate**  \n  1. **Browse** the available packages in the investor portal.  \n  2. **Review** the package information to understand the farming activity and the expected returns.  \n  3. **Invest** any amount up to the remaining funding needed for that package.  \n  4. Once the total required amount is reached, the package status changes to **Fully Funded** and no further investments are accepted.\n\n- **Key Points**  \n  - Funding is always tied to a specific farming activity, not to an individual farmer.  \n  - Investors can only fund packages that have been approved and are still open for investment.  \n  - The platform tracks each investment, the amount, date, and status, ensuring transparency throughout the farming cycle.  ",
+    "latency_seconds": 1.732,
+    "error": null
+  },
+  {
+    "id": 12,
+    "category": "funding",
+    "question": "How are funding packages created on CollabFarm?",
+    "expected_keywords": [
+      "funding",
+      "package",
+      "farmer"
+    ],
+    "answer": "**Creating a Funding Package on CollabFarm**\n\n1. **Prepare Farmer Information**  \n   - The Cooperative Admin adds a farmer and completes all required farmer details.  \n   - Farm information is entered (location, size, etc.).  \n   - A farming cycle (season) is selected.  \n   - The farmer must be verified before being linked to a package.\n\n2. **Choose or Build the Package**  \n   - The admin reviews existing funding packages that match the cooperative’s needs.  \n   - If none fit, the admin creates a **custom funding package**, specifying:  \n     - The verified farmers and their farms that will be included.  \n     - The farming activity and cycle the package will support.  \n     - The total amount of funding required.\n\n3. **Submit for Review**  \n   - Once the package details are complete, the admin submits the package for internal review/approval.\n\n4. **Approval and Publication**  \n   - After approval, the package status changes to **Approved** and it becomes visible to investors.  \n   - Investors can then view the package and fund it until the required amount is reached.\n\nWhen the total funding amount is met, the package automatically changes to **Fully Funded**, preventing any further investments.",
+    "latency_seconds": 1.581,
+    "error": null
+  },
+  {
+    "id": 13,
+    "category": "funding",
+    "question": "How does CollabFarm calculate the amount needed to fund a farm?",
+    "expected_keywords": [
+      "funding",
+      "calculation"
+    ],
+    "answer": "**How CollabFarm Determines the Funding Amount for a Farm**\n\nWhen a cooperative wants to raise money for a farmer’s operation, the amount needed is set during the **Funding Package creation** step. Here’s how the amount is arrived at:\n\n1. **Gather Real Farm Data**  \n   - The Cooperative Admin records the farmer’s details, the farm’s size, location, and the specific **farming activity** (e.g., planting, irrigation, livestock).  \n   - A **farming cycle** (the season or period for the activity) is selected.\n\n2. **Estimate Required Costs**  \n   - Based on the recorded farm information and chosen activity, the cooperative estimates the expenses needed to complete the cycle.  \n   - Typical cost components include seeds or inputs, labor, equipment, irrigation, fertilizers, and any other inputs that are specific to that farm and cycle.\n\n3. **Create the Funding Package**  \n   - The Cooperative Admin enters the total estimated cost into the platform as the **required funding amount** for the package.  \n   - This amount becomes the target that investors will collectively fund.\n\n4. **Package Review & Approval**  \n   - The package is submitted for review. Once approved, the amount stays fixed; investors can contribute until the package reaches its **Fully Funded** status.\n\n5. **Investor Contributions**  \n   - Investors fund the package up to the amount defined. The system prevents investments that would exceed the required total.\n\n**Key Points to Remember**\n\n- The calculation is **driven by the cooperative’s real‑world data** for the farmer, farm, activity, and cycle.  \n- CollabFarm itself does not auto‑calculate a figure; it records the amount the cooperative decides is necessary.  \n- Once set, the amount is the ceiling for all investor contributions; the package is marked *Fully Funded* when that total is reached.  \n\nIf you need help creating or editing a funding package, the Cooperative Admin can adjust the required amount based on updated cost estimates before the package is published to investors.",
+    "latency_seconds": 2.684,
+    "error": null
+  },
+  {
+    "id": 14,
+    "category": "funding_pm",
+    "question": "What is the exact funding model used by CollabFarm to determine investor returns?",
+    "expected_keywords": [
+      "funding",
+      "investor"
+    ],
+    "answer": "The information is not available in the current CollabFarm knowledge.",
+    "latency_seconds": 0.894,
+    "error": null
+  },
+  {
+    "id": 15,
+    "category": "investor",
+    "question": "What can investors do on CollabFarm?",
+    "expected_keywords": [
+      "investor",
+      "fund"
+    ],
+    "answer": "**What Investors Can Do on CollabFarm**\n\n- **Create an account** – Sign up to become an investor. After registration the account is pending approval; once approved you can start investing.  \n- **Browse approved funding packages** – See the list of packages that cooperatives have submitted and that have been cleared by the platform.  \n- **Review package details** – Look at what each package covers, the farms and crops involved, the farming cycle, and the amount needed.  \n- **Invest in packages** – Commit funds to one or more approved packages, up to the remaining amount each package requires.  \n- **Track your investments** – Monitor the status of active investments, see how much has been funded, and watch the farming progress.  \n- **View expected settlement** – See when and how much you can expect to be paid back once a farming cycle completes.  \n- **Check investment history** – Review past investments, including completed settlements and any returns received.  \n- **Access only your own investment information** – The platform restricts access so you can see only the data related to your accounts and the packages you are allowed to view.  \n\nThese are the primary actions available to investors on CollabFarm.",
+    "latency_seconds": 1.776,
+    "error": null
+  },
+  {
+    "id": 16,
+    "category": "investor",
+    "question": "How does an investor fund a farming opportunity?",
+    "expected_keywords": [
+      "investor",
+      "fund"
+    ],
+    "answer": "**How an Investor Funds a Farming Opportunity on CollabFarm**\n\n**1. Get approved as an investor**  \n- Create a CollabFarm account.  \n- Your account will be in *Pending* status until it is approved.  \n- Once approved, you can access the investment features.\n\n**2. Find a funding package**  \n- Browse the list of **approved** packages that are open for funding.  \n- Packages are organized by:  \n  - Farming category (crop, fishery, poultry, livestock, mixed)  \n  - Package type (Starter, Growth, Commercial)  \n- Review the package details – what it covers, the farming cycle, required amount, tenure, and expected return.\n\n**3. Choose how much to invest**  \n- Decide whether to invest in a single package or spread your funds across several packages.  \n- The system checks that your intended amount does **not exceed** the remaining amount needed for the package.\n\n**4. Confirm the investment**  \n- After you enter the amount, confirm the transaction.  \n- The platform records your investment and instantly updates the funding progress for that package.\n\n**5. Funding completion**  \n- When the total required amount is reached, the package is marked **fully funded**.  \n- No further investments can be made in that package, and the relevant parties are notified.\n\n**6. Sign the investment agreement**  \n- Before any funds are released to the cooperative, the required parties must accept the investment agreement.  \n- Once the agreement is signed, the funds are disbursed and the farming activity can proceed.\n\n**Summary**  \nAn investor funds a farming opportunity by getting approved, selecting an open funding package, investing an amount within the package’s remaining need, confirming the investment, and completing the required agreement before disbursement. The platform manages all checks, records, and notifications automatically.",
+    "latency_seconds": 2.284,
+    "error": null
+  },
+  {
+    "id": 17,
+    "category": "investment",
+    "question": "How can an investor track an investment?",
+    "expected_keywords": [
+      "invest",
+      "track"
+    ],
+    "answer": "**Tracking Your Investment on CollabFarm**\n\n1. **Log in to your investor account**  \n   - After approval, you can access the “Investments” section from the main menu.\n\n2. **Open the Investment Dashboard**  \n   - Here you’ll see a list of all the packages you have funded.\n\n3. **View Investment Status**  \n   - **Active investments** – packages that are still in the farming cycle.  \n   - **Completed investments** – packages that have reached settlement.  \n   - **Overdue investments** – any that are behind schedule.\n\n4. **Check Key Details**  \n   - **Expected returns** – projected profit for each active investment.  \n   - **Settlement information** – expected settlement amount, actual settled amount, settlement date and status.  \n\n5. **Explore the Investment Timeline**  \n   - Click an investment to see a visual timeline with the main events:  \n     - Investment funding  \n     - Agreement acceptance  \n     - Fund release  \n     - Farming progress updates (planting, growing, harvesting)  \n     - Harvest completion  \n     - Settlement  \n\n6. **Review Investment History**  \n   - A chronological record of all your past and current investments, including amounts, dates and outcomes.\n\n7. **Monitor Funding Progress (for packages you’re part of)**  \n   - See how much of the required amount has been funded and how much remains.\n\n**Quick Tips**\n\n- Use the filter options to switch between *Active*, *Completed*, or *Overdue* investments.  \n- For any question about a specific entry, click the investment name to open detailed information.  \n- Settlement details are updated automatically when the cooperative records the final payout.\n\nBy following these steps, you can stay informed about the performance, expected returns, and final settlement of every investment you make on CollabFarm.",
+    "latency_seconds": 2.505,
+    "error": null
+  },
+  {
+    "id": 18,
+    "category": "investment",
+    "question": "What happens after an investor funds a farming package?",
+    "expected_keywords": [
+      "fund",
+      "farming",
+      "track"
+    ],
+    "answer": "**What happens after you fund a farming package**\n\n- **Your investment is recorded** – the system logs the amount you contributed.  \n- **Funding progress is updated** – the package’s funding status reflects the new total, and all relevant users are notified.  \n- **Investment agreement is completed** – the required parties must accept the agreement (terms, responsibilities, settlement details).  \n- **Funds are released** – once the agreement is accepted, the approved funds are released following CollabFarm’s process.  \n- **Co‑operative disburses money to the farmers** – the cooperative admin records each disbursement (farmer, amount, date, supporting evidence).  \n- **Farming progress is tracked** – the cooperative updates the package through stages such as Planting, Growing, Harvesting, etc.  \n- **Settlement is recorded** – when farming is completed, settlement amount, date and status are entered, and the investment moves to your investment history.  \n\nAll of these steps happen automatically within the platform, keeping you informed about the status of your investment.",
+    "latency_seconds": 1.484,
+    "error": null
+  },
+  {
+    "id": 19,
+    "category": "disbursement",
+    "question": "How does CollabFarm handle money disbursement during a farming cycle?",
+    "expected_keywords": [
+      "disbursement",
+      "fund"
+    ],
+    "answer": "**Money Disbursement in a Farming Cycle**\n\n1. **Investment Completed**\n   * When a funding package reaches its target amount, its status changes to **Fully Funded**.\n   * No further investments can be added and the cooperative and farmer are notified.\n\n2. **Disbursement Trigger**\n   * The next step in the CollabFarm flow is **Disbursement**.\n   * The platform releases the approved funds to the farmer (or to the cooperative on the farmer’s behalf) so the farming activities can start.\n\n3. **Link to the Farming Cycle**\n   * The disbursement is tied directly to the **Farming Cycle** that was defined when the package was created.\n   * Funds are meant to cover the inputs and expenses needed for that specific cycle (e.g., seeds, fertilizer, labor).\n\n4. **Tracking**\n   * CollabFarm records the disbursement amount, date, and the recipient.\n   * This information becomes part of the ongoing **Farming Progress** monitoring, which later leads to harvest and settlement.\n\n5. **After Disbursement**\n   * The farmer reports progress on the farm.\n   * At the end of the cycle, harvest results are used for **Settlement**, where investors receive returns based on the outcome.\n\n**Key Point:** Money is only released after a package is fully funded, and the disbursement is linked to a verified farmer, a real farm, and a defined farming cycle, ensuring that the funds support a specific agricultural activity and are tracked throughout the cycle.",
+    "latency_seconds": 2.771,
+    "error": null
+  },
+  {
+    "id": 20,
+    "category": "tracking",
+    "question": "How does CollabFarm track money from investment to settlement?",
+    "expected_keywords": [
+      "investment",
+      "settlement",
+      "track"
+    ],
+    "answer": "**How CollabFarm tracks money from investment to settlement**\n\n---\n\n### 1. Investment Recording\n- When an investor funds a package, the system logs:\n  - Investor details  \n  - Package funded  \n  - Amount invested  \n  - Investment date and status  \n- The amount cannot exceed the remaining funding needed for the package.\n\n### 2. Funding Progress & Agreement\n- The platform updates the package’s funding progress in real‑time.  \n- Before any money is moved, the required **investment agreement** must be accepted by all parties.  \n- The agreement stores the terms that govern the fund release.\n\n### 3. Fund Release & Disbursement\n- After agreement acceptance, CollabFarm releases the approved funds.  \n- The cooperative records the **disbursement** to the verified farmers linked to the package.  \n- This creates a clear audit trail linking each dollar to a specific farmer and farm.\n\n### 4. Farming Progress Tracking\n- Throughout the farming cycle (planting, growth, harvest) the cooperative updates the platform with progress reports.  \n- These updates keep the investment tied to actual agricultural activity.\n\n### 5. Settlement Tracking\n- **Settlement information** is captured for every investment, including:\n  - Expected settlement amount  \n  - Actual settlement amount (recorded after harvest)  \n  - Settlement date  \n  - Settlement status (e.g., pending, completed)  \n- Investors can view this data in their **investment dashboard**, alongside active and completed investments.\n\n### 6. Investor Monitoring\n- Investors can monitor the whole money flow via:\n  - Active investment list  \n  - Investment timeline (funding → agreement → release → farming progress → harvest → settlement)  \n  - Expected vs. actual returns and settlement status  \n  - Full investment history after completion\n\n---\n\n**Result:** Every step—from the investor’s initial funding, through agreement, fund release, farmer disbursement, farming progress, and final settlement—is recorded in CollabFarm’s system, giving investors a transparent, traceable view of how their money moves and is repaid.",
+    "latency_seconds": 2.204,
+    "error": null
+  },
+  {
+    "id": 21,
+    "category": "settlement",
+    "question": "What is settlement on CollabFarm?",
+    "expected_keywords": [
+      "settlement"
+    ],
+    "answer": "**Settlement on CollabFarm**\n\nSettlement is the final stage of an investment cycle. After the farming activity is completed and the harvest is made, the platform records the financial outcome of the investment.\n\n- **What it includes**\n  - Expected settlement amount (what the investor was promised)\n  - Actual settlement amount (what is finally received)\n  - Settlement date\n  - Settlement status (e.g., pending, completed)\n\n- **Why it matters**\n  - Shows investors the result of their funding.\n  - Closes the investment record so it appears in the investor’s investment history.\n\nIn short, settlement is the process that documents and finalizes the financial return to the investor once a farming cycle has been harvested.",
+    "latency_seconds": 1.316,
+    "error": null
+  },
+  {
+    "id": 22,
+    "category": "settlement",
+    "question": "When does the farming process reach final settlement?",
+    "expected_keywords": [
+      "settlement",
+      "harvest"
+    ],
+    "answer": "**When the farming process reaches its final settlement**\n\n1. **Harvest is finished** – the crop is harvested and the “Harvest Completed” stage is set.  \n2. **Settlement information is recorded** – the expected settlement amount, the actual amount, the settlement date and the settlement status are entered.  \n3. **Status changes to “Completed”** – once the settlement data is saved, the farming progress moves from **“Awaiting Settlement”** to **“Completed.”**  \n\nAt that point the investment is fully settled and appears in the investor’s investment history. The settlement date defined in the farming cycle is the expected moment for this final step.",
+    "latency_seconds": 1.148,
+    "error": null
+  },
+  {
+    "id": 23,
+    "category": "transparency",
+    "question": "How does CollabFarm provide transparency and accountability?",
+    "expected_keywords": [
+      "transparency",
+      "accountability"
+    ],
+    "answer": "**Transparency and Accountability on CollabFarm**\n\n- **Verified Participants**\n  - All farmers are verified before they can be included in a funding package.  \n  - Cooperative admins must record accurate farmer and farm details, creating a traceable reference for each participant.\n\n- **Documented Funding Packages**\n  - Every package is linked to real, verified farmers, their farms, and a defined farming cycle.  \n  - Packages are reviewed and approved by the Super Admin, ensuring only legitimate projects reach investors.\n\n- **Full Investment Tracking**\n  - The platform records investor information, the specific package funded, investment amount, date and status.  \n  - Investment limits prevent over‑funding, and the package status changes to *Fully Funded* when the target is met.\n\n- **Progress Monitoring**\n  - Farming cycles, disbursements to farmers, crop progress and harvest results are all logged in the system.  \n  - Investors can view the status of their funded packages at each stage—from seed to settlement.\n\n- **Audit trails and reporting**\n  - Super Admins have access to audit logs that capture every change made on the platform.  \n  - Comprehensive reports are available for cooperatives, investors and administrators, showing funding flow, disbursements and settlements.\n\n- **Notifications and Status Updates**\n  - Users receive automatic notifications when key events occur (e.g., package fully funded, disbursement made, settlement completed), keeping everyone informed in real time.\n\nThese combined features ensure that all parties can see exactly where funds are coming from, how they are used, and the outcomes of each farming cycle—providing clear transparency and strong accountability throughout the entire financing process.",
+    "latency_seconds": 2.106,
+    "error": null
+  },
+  {
+    "id": 24,
+    "category": "platform",
+    "question": "What information can the CollabFarm AI assistant answer questions about?",
+    "expected_keywords": [
+      "CollabFarm",
+      "farmer",
+      "investor"
+    ],
+    "answer": "**The CollabFarm AI assistant can answer questions about:**\n\n- **CollabFarm overview** – what the platform is and its core purpose.  \n- **User roles** – Super Admin, Cooperative Admin, and Investor, including their responsibilities.  \n- **Cooperative workflow** – registration and approval, adding and verifying farmers, creating farm information and farming cycles, building and submitting funding packages.  \n- **Funding packages** – what they are, how they’re created, reviewed, approved, and made available to investors.  \n- **Investor workflow** – registration, account approval, finding and investing in approved funding packages, and tracking investments.  \n- **Farmer onboarding** – how farmers are added, their pending verification status, and the verification process.  \n- **Platform processes** – the step‑by‑step journey from cooperative approval through funding, farming, harvest, and settlement.  \n- **Super Admin functions** – managing cooperatives, investors, farmer verification, funding‑package review, platform settings, reports, and audit logs.  \n\nIf a question falls outside these topics, the assistant will let you know that the information is not available in the current CollabFarm knowledge.",
+    "latency_seconds": 2.097,
+    "error": null
+  },
+  {
+    "id": 25,
+    "category": "greeting",
+    "question": "Hello",
+    "expected_keywords": [
+      "hello"
+    ],
+    "answer": "Hello! How can I help you with CollabFarm today? Feel free to ask about packages, creating a custom package, cooperative enrollment, investor steps, or anything else you’d like to know.",
+    "latency_seconds": 0.794,
+    "error": null
+  },
+  {
+    "id": 26,
+    "category": "greeting",
+    "question": "Hi, how are you?",
+    "expected_keywords": [
+      "hi",
+      "hello"
+    ],
+    "answer": "Hello! I’m doing well, thank you. How can I help you with CollabFarm today?",
+    "latency_seconds": 0.707,
+    "error": null
+  },
+  {
+    "id": 27,
+    "category": "thanks",
+    "question": "Thank you for your help.",
+    "expected_keywords": [
+      "thank"
+    ],
+    "answer": "You’re welcome! If you have any other questions about CollabFarm or need clarification on any part of the platform, just let me know. I’m happy to help.",
+    "latency_seconds": 1.05,
+    "error": null
+  },
+  {
+    "id": 28,
+    "category": "unsupported",
+    "question": "What is the current weather in Abuja?",
+    "expected_keywords": [
+      "not available",
+      "CollabFarm"
+    ],
+    "answer": "The information is not available in the current CollabFarm knowledge.",
+    "latency_seconds": 0.789,
+    "error": null
+  },
+  {
+    "id": 29,
+    "category": "unsupported",
+    "question": "Who won the latest football match?",
+    "expected_keywords": [
+      "not available",
+      "CollabFarm"
+    ],
+    "answer": "The information is not available in the current CollabFarm knowledge.",
+    "latency_seconds": 0.802,
+    "error": null
+  },
+  {
+    "id": 30,
+    "category": "unsupported",
+    "question": "Can you help me write a Python program to calculate my taxes?",
+    "expected_keywords": [
+      "not available",
+      "CollabFarm"
+    ],
+    "answer": "The information is not available in the current CollabFarm knowledge.",
+    "latency_seconds": 1.107,
+    "error": null
+  }
+]

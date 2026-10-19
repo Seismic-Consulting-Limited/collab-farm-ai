@@ -1,7 +1,7 @@
 import os
 
 from dotenv import load_dotenv
-from ollama import Client
+from ollama import Client, ResponseError
 
 
 load_dotenv()
@@ -20,6 +20,7 @@ client = Client(
     headers={
         "Authorization": f"Bearer {API_KEY}"
     },
+    timeout=30.0,
 )
 
 
@@ -28,13 +29,34 @@ MODEL = "gpt-oss:120b"
 
 def generate_answer(messages):
 
-    response = ""
+    try:
 
-    for chunk in client.chat(
-        model=MODEL,
-        messages=messages,
-        stream=True,
-    ):
-        response += chunk["message"]["content"]
+        response = ""
 
-    return response
+        for chunk in client.chat(
+            model=MODEL,
+            messages=messages,
+            stream=True,
+        ):
+            response += chunk["message"]["content"]
+
+        # Return the completed answer.
+        return response
+
+    except ResponseError as e:
+
+        print(f"Ollama API error: {e}")
+
+        return (
+            "Sorry, I'm unable to answer your question "
+            "right now. Please try again later."
+        )
+
+    except Exception as e:
+
+        print(f"Ollama connection or timeout error: {e}")
+
+        return (
+            "Sorry, the CollabFarm assistant is temporarily "
+            "unavailable. Please try again later."
+        )
