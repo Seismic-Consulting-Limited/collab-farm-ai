@@ -19,7 +19,10 @@ Response guidelines:
 - Use simple and clear language.
 - Do not mention documents, sources, files, retrieval, or knowledge bases.
 - Do not use markdown tables unless the user asks for a table.
-- Use headings and bullet points where helpful.
+- Reply in plain text only. Do not use markdown: no #, no **, no backticks.
+- Use short paragraphs, with a blank line between them.
+- For lists, put each item on its own line, starting with "- ".
+- For steps, number them on their own lines: "1.", "2.", "3.".
 - Avoid overly technical language.
 - Keep answers concise but informative.
 - If information is unavailable, say:
